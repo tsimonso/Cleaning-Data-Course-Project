@@ -1,6 +1,6 @@
 # Cleaning-Data-Course-Project
 
-The codebook file titled "Codebook" contains a description of the variables used in the tidy dataset as well as additional information to explain the data.
+The codebook file titled "Codebook" contains a description of the variables used in the tidy dataset as well as additional information to explain the data.  The codebook is provided in two different file formats, so the viewer can choose how to display it.  The content is identical.
 
 The R script titled "run_analysis.R" contains all the code used to process the raw data into the tidy dataset.
 
