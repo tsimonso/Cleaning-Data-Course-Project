@@ -10,7 +10,7 @@ Variables:
 “SubjectID” – Identification number for the subject from whom data is collected.  Numerically valued to 
 	represent one of 30 subjects.
 “SubjectActivity” – Describes what activity the subject performed for data collection.  Character valued
-	with six levels.
+	with six levels (Sitting, Standing, Laying, Walking, Walking Upstairs, and Walking Downstairs).
 
 [2]
 
