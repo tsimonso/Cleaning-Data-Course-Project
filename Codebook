@@ -16,13 +16,13 @@ Variables:
 
 Rather than provide an individual description for each variable, the elements of the variables themselves are described to adequately establish the meaning of each variable.
 
-“t” : Data measurement is time.  Exact unit of measurement is unknown.
-“f” : Data measurement is frequency.  Exact unit of measurement is unknown.
+“t” : Domain is time.  No unit of measurement. Data is normalized and bound within [-1,1].
+“f” : Domain is frequency. No unit of measurement. Data is normalized and bound within [-1,1].
 “Body” : Data measurement is an effect of body movement.
 “Gravity” : Data measurement is an effect of gravitational force.
 “Acc” : Data is measured from the sensor signal of a accelerometer.
 “Gyro” : Data is measured from the sensor signal of a gyroscope.
-“Jerk” : Jerk measurement calculated using body linear acceleration and angular velocity.
+“Jerk” : Jerk measurement calculated deriving the signals from the accelerometer and the gyroscope.
 “Mag” : A magnitude measurement calculated using the Euclidean norm
 “X,Y,Z” : Indicate the direction of movement for which the measurement was taken.
 “mean() : The measurement is the mean of collected data.
